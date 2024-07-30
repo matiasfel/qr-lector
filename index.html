@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Punto estudiantil</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lector QR</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lector QR with HTML5QR-Lector</h1> <br>
+      <div id="reader"></div>
+      <div id="url-inf"></div>
+    </div>
 
-
-  <script src="app.js"></script>
-</body>
+    <!-- --- -->
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+    <script src="static/js/app.js"></script>
+  </body>
 </html>
